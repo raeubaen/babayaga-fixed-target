@@ -1,4 +1,6 @@
-Cuts in babayaga are looser by 10% than analysis cuts except for acollinearity cut which is only a bit looser
+code here: https://github.com/raeubaen/babayaga-fixed-target/tree/main
+
+Cuts in babayaga are looser than analysis cuts
 
 
 a run was made with nominal analysis cuts at 17 MeV, obtaining a 0.39mb cross section
@@ -15,7 +17,7 @@ mode unweighted #per andare dentro geant4 facile
 ecms $1 #depending on energy [GeV]
 thmin $2 #like above [degrees]
 thmax $3 #... [degrees]
-zmax 18 # looser than elisa cuts on (pi-theta1-theta2), if correctly evaluated [degrees]
+zmax 40 # looser than elisa cuts on (pi-theta1-theta2), if correctly evaluated [degrees]
 emin $4 #... [GeV]
 nphot -1
 nev 10000

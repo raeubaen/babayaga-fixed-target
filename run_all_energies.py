@@ -7,8 +7,8 @@ import sys
 def run(row):
     ecms = row.ecms
     emin = row.emin*0.9
-    tmin = row.tmin*0.9
-    tmax = row.tmax*1.1
+    tmin = row.tmin-1
+    tmax = row.tmax+1
     id = int(row.id)
     ebeam = row.ebeam
     ecms = row.ecms
@@ -23,7 +23,7 @@ def run(row):
 
 os.system("echo id,ebeam,ecms,xs,xs_err > xs.txt")
 df = pd.read_csv("info.csv")
-df = df.head(1)
+#df = df.head(1)
 print(df)
 
 df.apply(lambda row: run(row), axis=1)
