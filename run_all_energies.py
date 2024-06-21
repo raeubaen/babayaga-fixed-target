@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import sys
 
+#remove the df = df.head(1) line to process everything
+
 def run(row):
     ecms = row.ecms
     emin = row.emin*0.9
