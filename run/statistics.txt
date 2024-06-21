@@ -1,0 +1,53 @@
+  Process PID:     4015896  running on lxplus9103.cern.ch  
+  
+ final state = ee 
+ nominal ecms   =      0.0170 GeV
+ thmin  =     78.0000 deg
+ thmax  =    102.0000 deg
+ acoll. =     17.6600 deg
+ emin   =       0.0060 GeV
+ ord    = exp   
+ model  = matched   
+ nphot mode =   -1
+ seed   =  4354864
+ iarun  =    1
+ (Jegerlehner alpha running)
+ eps    = .000000500
+ darkmod =    0
+  
+~ Generating        10000 unweighted events ~
+  
+ ::::::>>>>>> weighted events <<<<<<::::::
+ 0 photons:  208346.64432702 +-   2311.77210842     ( 49.0893 %)
+ 1 photons:  150115.53930719 +-   2633.22305109     ( 35.3693 %)
+ 2 photons:   52970.78144784 +-   2036.57904814     ( 12.4806 %)
+ 3 photons:   11002.87732214 +-   1097.70312164     (  2.5924 %)
+ 4 photons:    1861.32141117 +-    470.90284652     (  0.4386 %)
+ 5 photons:     124.62512570 +-     82.05187765     (  0.0294 %)
+ 6 photons:       1.56368408 +-      1.54483985     (  0.0004 %)
+ total:    424423.35262513 +-   2594.81619436 nb
+  
+ n.        10000 of      10000000000000.
+ cut points   9.46 %
+ ::::::>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<::::::
+  
+ ::::::>>>>>> unweighted events <<<<<<::::::
+ hit or miss efficiency   0.00 %
+ unweighted events generated           0.
+  
+ total (nb):         0.00000000 +-      0.00000000 +
+        !!!!         0.00000000 +-      0.00000000 (bias over fmax) +
+        !!!!        -0.00000000 +-      0.00000000 (bias negative)
+ total + biases:       0.00000000 +-      0.00000000
+  
+ N. points with w > fmax (bias):            0
+ bias/hit and bias/(hit+missed): 0.0000000 % and  0.0000000 %
+ N. points with w < 0:           0
+ biases for w < 0:      0.00000 % and    0.00000 %
+  
+ Upper limits fmax and sdifmax       0.000000 4274592.509285
+ when there were   3 photons
+ ::::::>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<::::::
+  
+ Born x-sect:    447936.91200940 +-   4974.39879144 nb
+  
