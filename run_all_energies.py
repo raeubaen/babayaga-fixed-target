@@ -19,7 +19,7 @@ def run(row):
     os.system(f"echo -n {id},{ebeam},{ecms}, >> xs.txt")
     os.system(f"grep 'total (nb)' /eos/user/r/rgargiul/www/babapadme/{id}/run/statistics.txt | grep -o -P '(?<=:).*(?=-)' | sed 's/+//g' | sed 's/ //g' | tr -d '\n' >> xs.txt")
     os.system("echo -n , >> xs.txt")
-    os.system("grep 'total (nb)' /eos/user/r/rgargiul/www/babapadme/{id}/run/statistics.txt | grep -o -P '(?<=-).*(?= )' |  sed 's/ //g' >> xs.txt")
+    os.system(f"grep 'total (nb)' /eos/user/r/rgargiul/www/babapadme/{id}/run/statistics.txt | grep -o -P '(?<=-).*(?= )' |  sed 's/ //g' >> xs.txt")
 
 os.system("echo id,ebeam,ecms,xs,xs_err > xs.txt")
 df = pd.read_csv("info.csv")

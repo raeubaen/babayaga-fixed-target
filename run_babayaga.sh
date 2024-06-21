@@ -8,7 +8,7 @@ mode unweighted
 ecms $1
 thmin $2
 thmax $3
-zmax 17.66
+zmax 18
 emin $4
 nphot -1
 nev 10000

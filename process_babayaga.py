@@ -73,7 +73,7 @@ open(f"{workfolder}/{id}/header.dat", "w").write(header)
 ones = np.ones((len(ele)))
 
 calchep_like = pd.DataFrame({"ev": ones, "p13": ones*enbeam, "p23": ones*0, "p31": ele[:, 1], "p32": ele[:, 2], "p33": ele[:, 3], "p41": pos[:, 1], "p42": pos[:, 2], "p43": pos[:, 3]})
-calchep_like.columns = ["ev", "p13", "p23", "p31", "p32", "p33", "p41", "p42", "p43", "]
+calchep_like.columns = ["ev", "p13", "p23", "p31", "p32", "p33", "p41", "p42", "p43"]
 
 calchep_like.to_csv(f"{workfolder}/{id}/calchep_like.csv", index=None, header=False, sep=" ")
 
